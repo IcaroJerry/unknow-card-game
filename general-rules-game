@@ -1,0 +1,14 @@
+Estruturas das cartas
+Total de cartas do Jogo: 58
+Total de cartas por jogador: 45, sendo 1 Rei por jogador,  4 naipes, cada um contendo 5  cartas de ataques que variam entre 4 à 10 e 4 especiais e diferentes.
+Cada jogador possui os 4 naipes,  e apenas dois dele lutam entre si, ou seja, só é permitida jogadas do naipe de Lua contra o naipe de Sol e o de Lança contra o de Lua.ok
+Todas as cartas possuem um atributo chamado Distância, que varia entre 4 à 10. A Distância da carta permite ao jogador a ter possibilidade de se defender dos ataques de qualquer carta, desde que sua Distância seja igual ou maior do que a do ataque.
+Regras Básicas
+1ª Cada jogador inicia com 30 pontos de Energia Vital, e com 5 cartas na mão. 
+2ª Ganha o jogador que conseguir tirar todos os pontos de Energia Vital ou que tiver este maior do que o do outro caso as cartas acabem.
+3ª Apesar da mesma quantidade de cartas e equivalentes aos naipes de batalhas, cada jogador possui baralhos diferentes.
+Regras Específicas
+1ª - Só podem batalhar a Lua contra o Sol, a Cruz contra a Lança, com exceção do Rei de cada baralho, este pode batalhar contra qualquer naipe, desde que não fuja a 2ª regra.
+2ª- O atributo da Distância é irrelevante para quem ataca apenas quem defende precisa usar este atributo da carta maior ou igual para poder efetuar a defesa. Caso o jogador que está se defendo, tiver o atributo Ataque menor do que o do jogador que ataca, este toma os pontos que sobram (ou seja, os pontos de Ataque menos de Defesa serão debitados nos pontos vitais do jogador). Caso o jogador que ataca tiver menos ponto de ataque do que o jogador que defende, este toma os pontos que sobram, ou seja, um contra-ataque. 
+3ª- Cada jogada poderá ter apenas um de tipo de batalha por vez (de acordo com a 1ª regra), ou seja, o jogador que defende deve jogar as cartas cujos naipes combatem com a do jogador que ataca.
+4ª- Caso o jogador não tenha carta para se defender segundo o naipe da batalha ou a Distância não sejam compatíveis para efetuar uma defesa, os pontos de Ataque deve ser debitados diretamente nos pontos de Energia Vital. 
